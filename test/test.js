@@ -416,7 +416,7 @@ tape( 'if an environment supports `Symbol.iterator` and the provided iterator is
 	var i;
 
 	iterReject = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	opts = {
@@ -453,7 +453,7 @@ tape( 'if an environment does not support `Symbol.iterator`, the returned iterat
 	var it;
 
 	iterReject = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': false
+		'@stdlib/symbol-iterator': false
 	});
 
 	it = iterReject( randu(), predicate );
@@ -472,7 +472,7 @@ tape( 'if a provided iterator is not iterable, the returned iterator is not iter
 	var it;
 
 	iterReject = proxyquire( './../lib/main.js', {
-		'@stdlib/symbol/iterator': '__ITERATOR_SYMBOL__'
+		'@stdlib/symbol-iterator': '__ITERATOR_SYMBOL__'
 	});
 
 	rand = randu();
