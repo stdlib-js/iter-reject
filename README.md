@@ -63,7 +63,9 @@ If no recognized module system is present, access bundle contents via the global
 ```html
 <script type="text/javascript">
 (function () {
+(function () {
     window.iterReject;
+})();
 })();
 </script>
 ```
@@ -186,6 +188,7 @@ var count = ctx.count;
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/iter-reject@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
+(function () {
 
 function predicate( v ) {
     return ( v > 0.5 );
@@ -210,6 +213,7 @@ while ( true ) {
     console.log( r.value );
 }
 
+})();
 })();
 </script>
 </body>
@@ -316,9 +320,9 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/iter/filter]: https://github.com/stdlib-js/iter-filter/tree/umd
+[@stdlib/iter/filter]: https://github.com/stdlib-js/iter-filter/tree/umd/tree/umd
 
-[@stdlib/iter/map]: https://github.com/stdlib-js/iter-map/tree/umd
+[@stdlib/iter/map]: https://github.com/stdlib-js/iter-map/tree/umd/tree/umd
 
 <!-- </related-links> -->
 
