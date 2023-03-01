@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/reject"
-click B href "https://github.com/stdlib-js/iter-reject/tree/main"
-click C href "https://github.com/stdlib-js/iter-reject/tree/production"
-click D href "https://github.com/stdlib-js/iter-reject/tree/esm"
-click E href "https://github.com/stdlib-js/iter-reject/tree/deno"
-click F href "https://github.com/stdlib-js/iter-reject/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/reject"
+%% click B href "https://github.com/stdlib-js/iter-reject/tree/main"
+%% click C href "https://github.com/stdlib-js/iter-reject/tree/production"
+%% click D href "https://github.com/stdlib-js/iter-reject/tree/esm"
+%% click E href "https://github.com/stdlib-js/iter-reject/tree/deno"
+%% click F href "https://github.com/stdlib-js/iter-reject/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/iter/reject
