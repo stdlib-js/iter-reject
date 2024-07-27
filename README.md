@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import iterReject from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-reject@esm/index.mjs';
+import iterReject from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-reject@v0.2.2-esm/index.mjs';
 ```
 
 #### iterReject( iterator, predicate\[, thisArg] )
@@ -172,7 +172,7 @@ var count = ctx.count;
 <script type="module">
 
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-iter-randu@esm/index.mjs';
-import iterReject from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-reject@esm/index.mjs';
+import iterReject from 'https://cdn.jsdelivr.net/gh/stdlib-js/iter-reject@v0.2.2-esm/index.mjs';
 
 function predicate( v ) {
     return ( v > 0.5 );
